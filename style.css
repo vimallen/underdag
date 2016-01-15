@@ -752,3 +752,7 @@ object {
 body {
   width: 80%;
   margin: 0 auto; }
+
+.logo {
+  padding-top: 1em;
+  padding-bottom: 2em; }
