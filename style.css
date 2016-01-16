@@ -230,7 +230,7 @@ input,
 select,
 textarea {
   color: #404040;
-  font-family: Verdana, Geneva, sans-serif;
+  font-family: Georgia, Times, "Times New Roman", serif;
   font-size: 16px;
   font-size: 1rem;
   line-height: 1.5; }
@@ -451,9 +451,9 @@ a {
 --------------------------------------------------------------*/
 .main-navigation {
   clear: both;
-  display: block;
-  float: left;
-  width: 100%; }
+  display: inline-block;
+  width: 100%;
+  text-align: center; }
   .main-navigation ul {
     display: none;
     list-style: none;
@@ -461,7 +461,6 @@ a {
     padding-left: 0; }
     .main-navigation ul ul {
       box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
-      float: left;
       position: absolute;
       top: 1.5em;
       left: -999em;
@@ -472,16 +471,17 @@ a {
       .main-navigation ul ul li:hover > ul, .main-navigation ul ul li.focus > ul {
         left: 100%; }
       .main-navigation ul ul a {
-        width: 200px; }
+        width: 8em; }
     .main-navigation ul li:hover > ul,
     .main-navigation ul li.focus > ul {
       left: auto; }
   .main-navigation li {
-    float: left;
+    display: inline-block;
     position: relative; }
   .main-navigation a {
     display: block;
-    text-decoration: none; }
+    text-decoration: none;
+    margin-right: 0.75em; }
 
 /* Small menu. */
 .menu-toggle,
@@ -755,4 +755,12 @@ body {
 
 .logo {
   padding-top: 1em;
-  padding-bottom: 2em; }
+  padding-bottom: 2em;
+  text-align: center; }
+
+/*     =Media queries----------------------------------------- */
+/* WIDESCREEN */
+/* Increased body size for legibility */
+@media only screen and (min-width: 87.5em) {
+  body {
+    font-size: 120%; } }
