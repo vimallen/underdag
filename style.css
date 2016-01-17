@@ -481,7 +481,7 @@ a {
   .main-navigation a {
     display: block;
     text-decoration: none;
-    margin-right: 0.75em; }
+    padding: 0.5em; }
 
 /* Small menu. */
 .menu-toggle,
