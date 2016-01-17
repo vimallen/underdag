@@ -122,6 +122,15 @@ body 	{
 			text-align: center;
 }
 
+.home .entry-header { // hide site title on home page
+@extend .visuallyhidden;
+}
+
+button.menu-toggle {
+    margin-bottom: 1em;
+}
+
+
 /*     =Media queries----------------------------------------- */
 
 
