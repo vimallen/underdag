@@ -453,7 +453,8 @@ a {
   clear: both;
   display: inline-block;
   width: 100%;
-  text-align: center; }
+  text-align: center;
+  text-transform: uppercase; }
   .main-navigation ul {
     display: none;
     list-style: none;
@@ -481,12 +482,16 @@ a {
   .main-navigation a {
     display: block;
     text-decoration: none;
+    margin-right: 0.75em;
     padding: 0.5em; }
 
 /* Small menu. */
 .menu-toggle,
 .main-navigation.toggled ul {
   display: block; }
+
+.toggled a {
+  background-color: #aaa; }
 
 @media screen and (min-width: 37.5em) {
   .menu-toggle {
