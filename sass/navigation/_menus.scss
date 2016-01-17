@@ -78,10 +78,12 @@
 .menu-toggle,
 .main-navigation.toggled ul {
 	display: block;
+	text-align: left;
 }
 
-.toggled a	{
+.toggled li	{
 					background-color: #aaa;
+					width: 100%;
 }
 
 

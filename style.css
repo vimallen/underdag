@@ -488,10 +488,12 @@ a {
 /* Small menu. */
 .menu-toggle,
 .main-navigation.toggled ul {
-  display: block; }
+  display: block;
+  text-align: left; }
 
-.toggled a {
-  background-color: #aaa; }
+.toggled li {
+  background-color: #aaa;
+  width: 100%; }
 
 @media screen and (min-width: 37.5em) {
   .menu-toggle {
