@@ -121,7 +121,9 @@ body 	{
 			padding-bottom: 2em;
 			text-align: center;
 }
-
+svg {
+  fill: $color__text-main;
+}
 .home .entry-header { // hide site title on home page
 @extend .visuallyhidden;
 }
