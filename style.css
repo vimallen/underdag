@@ -229,7 +229,7 @@ button,
 input,
 select,
 textarea {
-  color: #F8D7AF;
+  color: #444;
   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
   font-size: 16px;
   font-size: 1rem;
@@ -290,7 +290,7 @@ html {
   box-sizing: inherit; }
 
 body {
-  background: #3B0C0C;
+  background: #f2f0e3;
   /* Fallback for when there is no custom background color defined. */ }
 
 blockquote, q {
@@ -762,7 +762,7 @@ body {
   text-align: center; }
 
 svg {
-  fill: #F8D7AF; }
+  fill: #444; }
 
 button.menu-toggle {
   margin-bottom: 1em; }
