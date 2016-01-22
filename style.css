@@ -490,6 +490,11 @@ a {
 .main-navigation.toggled ul {
   display: block; }
 
+.toggled li {
+  background-color: #aaa;
+  width: 100%;
+  text-align: left; }
+
 @media screen and (min-width: 37.5em) {
   .menu-toggle {
     display: none; }
