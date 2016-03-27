@@ -124,6 +124,12 @@ body 	{
 svg {
   fill: $color__text-main;
 }
+
+h1.site-title, p.site-title {
+						text-align: center;
+						text-transform: uppercase;
+						font-size: 2em;
+}
 .home .entry-header { // hide site title on home page
 @extend .visuallyhidden;
 }

@@ -436,7 +436,8 @@ textarea {
 ## Links
 --------------------------------------------------------------*/
 a {
-  color: royalblue; }
+  color: royalblue;
+  text-decoration: none; }
   a:visited {
     color: purple; }
   a:hover, a:focus, a:active {
@@ -444,7 +445,8 @@ a {
   a:focus {
     outline: thin dotted; }
   a:hover, a:active {
-    outline: 0; }
+    outline: 0;
+    text-decoration: underline; }
 
 /*--------------------------------------------------------------
 ## Menus
@@ -768,6 +770,11 @@ body {
 
 svg {
   fill: #444; }
+
+h1.site-title, p.site-title {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2em; }
 
 button.menu-toggle {
   margin-bottom: 1em; }
