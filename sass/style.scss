@@ -128,8 +128,10 @@ svg {
 h1.site-title, p.site-title {
 						text-align: center;
 						text-transform: uppercase;
-						font-size: 2em;
+						font-size: 1.75em;
 						color: $color__text-main;
+						letter-spacing: 0.0625em;
+
 }
 .home .entry-header { // hide site title on home page
 @extend .visuallyhidden;

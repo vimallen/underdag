@@ -446,6 +446,10 @@ a {
     outline: 0;
     text-decoration: underline; }
 
+.site-header a {
+  color: #444;
+  text-decoration: none; }
+
 /*--------------------------------------------------------------
 ## Menus
 --------------------------------------------------------------*/
@@ -771,8 +775,9 @@ svg {
 h1.site-title, p.site-title {
   text-align: center;
   text-transform: uppercase;
-  font-size: 2em;
-  color: #444; }
+  font-size: 1.75em;
+  color: #444;
+  letter-spacing: 0.0625em; }
 
 button.menu-toggle {
   margin-bottom: 1em; }
