@@ -112,8 +112,12 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 @import "helpers/helpers";
 
 body 	{
-			width: 80%;
+			width: 100%;
 			margin: 0 auto;
+}
+
+.site-content	{
+							padding: 0 1em;
 }
 
 .logo	{
@@ -163,7 +167,13 @@ button.menu-toggle {
 
 
 @media only screen and (min-width: 48em) /* 768px */ {
+	.site-content	{
+								padding: 0 8em;
+	}
 
+	p {
+		max-width: 45em;
+	}
 
 }
 

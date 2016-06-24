@@ -6,6 +6,7 @@
 	width: 100%;
 	text-align: center;
 	text-transform: uppercase;
+	background-color: #ccc;
 
 	ul {
 		display: none;
@@ -60,11 +61,18 @@
 		&.focus > a {
 		}
 	}
+
+	// Styles for main nav
 	a {
 		display: block;
 		text-decoration: none;
 		margin-right: 0.75em;
 		padding: 0.5em;
+		color: red;
+	}
+
+	a:hover {
+					color: orange;
 	}
 
 	.current_page_item > a,
