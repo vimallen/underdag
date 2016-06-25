@@ -6,7 +6,8 @@
 	width: 100%;
 	text-align: center;
 	text-transform: uppercase;
-	background-color: #ccc;
+	background-color: hsl(210, 12%, 15%);
+	padding-top: 1em;
 
 	ul {
 		display: none;
@@ -67,8 +68,9 @@
 		display: block;
 		text-decoration: none;
 		margin-right: 0.75em;
-		padding: 0.5em;
-		color: red;
+		padding: 0.75em;
+		color: hsl(60, 33%, 95%);
+		font-size: 0.75em;
 	}
 
 	a:hover {
