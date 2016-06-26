@@ -791,7 +791,28 @@ h1.site-title, p.site-title {
 button.menu-toggle {
   margin-bottom: 1em; }
 
-/*     =Media queries----------------------------------------- */
+.current-menu-item.shiftnav-depth-0 .shiftnav-target {
+  color: #fff !important;
+  /* Link Color */
+  background-color: hotpink !important;
+  /* Background Color */ }
+
+/* Non-Current Menu */
+.shiftnav-depth-0 .shiftnav-target {
+  background-color: #333 !important;
+  /* Background Color */ }
+
+/* Menu Items */
+.shiftnav-depth-1 .shiftnav-target {
+  background-color: #333 !important;
+  /* Background Color */ }
+
+/* a.current-menu-item.shiftnav-depth-0 .shiftnav-target { */
+/* background-color: #373b3e; */
+/* } */
+/* a.current-menu-item	{ */
+/* 		background-color: #373b3e; */
+/* } */
 @media only screen and (min-width: 48em) {
   .site-content {
     padding: 0 8em; }
