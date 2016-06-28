@@ -290,7 +290,7 @@ html {
   box-sizing: inherit; }
 
 body {
-  background: white;
+  background: #ebedec;
   /* Fallback for when there is no custom background color defined. */ }
 
 blockquote, q {
@@ -460,7 +460,8 @@ a {
   text-align: center;
   text-transform: uppercase;
   background-color: #22262b;
-  padding-top: 1em; }
+  padding-top: 1em;
+  border-bottom: 3px solid hotpink; }
   .main-navigation ul {
     display: none;
     list-style: none;
@@ -493,7 +494,7 @@ a {
     color: #f6f6ee;
     font-size: 0.75em; }
   .main-navigation a:hover {
-    color: orange; }
+    color: hotpink; }
 
 /* Small menu. */
 .menu-toggle,
@@ -786,7 +787,8 @@ h1.site-title, p.site-title {
   text-transform: uppercase;
   font-size: 1.75em;
   color: #444;
-  letter-spacing: 0.0625em; }
+  letter-spacing: 0.0625em;
+  margin-top: 0.25em; }
 
 button.menu-toggle {
   margin-bottom: 1em; }
