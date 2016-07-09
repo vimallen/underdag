@@ -224,6 +224,32 @@ th {
 /*--------------------------------------------------------------
 # Typography
 --------------------------------------------------------------*/
+/* =Type sizes
+
+1  / 16 = 0.0625em;	(1px equivalent)
+5  / 16 = 0.3125em; (5px equivalent)
+8  / 16 = 0.5em;	(8px equivalent)
+9  / 16 = 0.5625em;	(9px equivalent)
+10 / 16 = 0.625em;	(10px equivalent)
+11 / 16 = 0.68725;	(11px equivalent)
+12 / 16 = 0.75em;	(12px equivalent)
+14 / 16	= 0.875em; 	(14px equivalent)
+15 / 16 = 0.9375em;	(15px equivalent)
+16 / 16	= 1em; 		(16px equivalent)
+18 / 16 = 1.125em; 	(18px equivalent)
+20 / 16 = 1.25em;	(20px equivalent)
+21 / 16 = 1.3125em; (21px equivalent)
+22 / 16 = 1.375em;	(22px equivalent)
+24 / 16 = 1.5em; 	(24px equivalent)
+26 / 16 = 1.625em;	(26px equivalent)
+28 / 16 = 1.75em;	(28px equivalent)
+30 / 16 = 1.875em; 	(30px equivalent)
+32 / 16 = 2em;       (32px equivalent)
+34 / 16 = 2.125em;	(34px equivalent)
+36 / 16 = 2.253em;	(36px equivalent)
+
+
+*/
 body,
 button,
 input,
@@ -236,7 +262,9 @@ textarea {
   line-height: 1.5; }
 
 h1, h2, h3, h4, h5, h6 {
-  clear: both; }
+  clear: both;
+  font-weight: normal;
+  color: #981405; }
 
 p {
   margin-bottom: 1.5em; }
@@ -290,7 +318,7 @@ html {
   box-sizing: inherit; }
 
 body {
-  background: #ebedec;
+  background: #FFF5EE;
   /* Fallback for when there is no custom background color defined. */ }
 
 blockquote, q {
@@ -461,7 +489,8 @@ a {
   text-transform: uppercase;
   background-color: #22262b;
   padding-top: 1em;
-  border-bottom: 3px solid hotpink; }
+  padding: 0.5em;
+  border-bottom: 6px solid #981405; }
   .main-navigation ul {
     display: none;
     list-style: none;
@@ -491,10 +520,11 @@ a {
     text-decoration: none;
     margin-right: 0.75em;
     padding: 0.75em;
-    color: #f6f6ee;
-    font-size: 0.75em; }
+    color: #FFF5EE;
+    font-size: 0.875em;
+    letter-spacing: 0.25em; }
   .main-navigation a:hover {
-    color: hotpink; }
+    color: white; }
 
 /* Small menu. */
 .menu-toggle,
@@ -817,7 +847,7 @@ button.menu-toggle {
 /* 		background-color: #373b3e; */
 /* } */
 @media only screen and (min-width: 48em) {
-  .site-content {
+  .site-content, .site-info {
     padding: 0 8em; }
 
   p {

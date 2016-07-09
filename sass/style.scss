@@ -188,9 +188,10 @@ button.menu-toggle {
 
 
 @media only screen and (min-width: 48em) /* 768px */ {
-	.site-content	{
+	.site-content, .site-info	{
 								padding: 0 8em;
 	}
+
 
 	p {
 		max-width: 45em;
